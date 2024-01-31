@@ -4,6 +4,9 @@ jobs:
   line-counter:
     name: Line counter job
     runs-on: ubuntu-latest
+    permissions:
+      # Serve questo permesso per poter effettuare una commit e push.
+      contents: write
     steps:
       - name: Checkout code
         uses: actions/checkout@v4.1.1
