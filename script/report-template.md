@@ -1,2 +1,2 @@
 # La mia Action
-My cpp files contain **_LINES__** lines of code
+My cpp files contain **__LINES__** lines of code
