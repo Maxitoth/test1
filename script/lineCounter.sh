@@ -1,2 +1,2 @@
 lines=$(cat *.cpp | wc -l)
-echo cpp files code lines: $lines >> README.md
+echo \n cpp files code lines: $lines >> README.md
